@@ -1,0 +1,3 @@
+C:/Users/Don/CLionProjects/cuda-by-example/cmake-build-debug/CMakeFiles/cuda_by_example.dir
+C:/Users/Don/CLionProjects/cuda-by-example/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Don/CLionProjects/cuda-by-example/cmake-build-debug/CMakeFiles/rebuild_cache.dir

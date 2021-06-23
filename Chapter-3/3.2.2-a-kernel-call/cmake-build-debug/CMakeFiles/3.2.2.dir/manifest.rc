@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/Don/CLionProjects/cuda-by-example/Chapter-3/3.2.2-a-kernel-call/cmake-build-debug/CMakeFiles/3.2.2.dir/embed.manifest"
