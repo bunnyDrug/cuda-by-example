@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "common/book.h"
+#include "../../imp/common/book.h"
 
 __global__ void add ( int a, int b, int *c ) {
     *c = a + b;
