@@ -12,6 +12,9 @@ cmake-build-debug-jnano
 .idea/**/shelf
 .idea/deployment.xml
 .idea/webServers.xml
+.idea/.name
+.idea/misc.xml
+.idea/other.xml
 
 # AWS User-specific
 .idea/**/aws.xml
