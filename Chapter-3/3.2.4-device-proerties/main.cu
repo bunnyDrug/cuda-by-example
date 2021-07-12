@@ -37,7 +37,18 @@ int main() {
 
         printf("   --- MP Information for device %d ---\n", i);
         printf("Multiprocessor count: %d\n", prop.multiProcessorCount);
-        printf("Shared mem per mp: %d\n", prop.sharedMemPerMultiprocessor);
+        printf("Shared mem p/mp: %d\n", prop.sharedMemPerMultiprocessor);
+        printf( "Shared mem per mp:  %ld\n", prop.sharedMemPerBlock );
+        printf( "Registers per mp:  %d\n", prop.regsPerBlock );
+        printf( "Threads in warp:  %d\n", prop.warpSize );
+        printf( "Max threads per block:  %d\n",prop.maxThreadsPerBlock );
+        printf( "Max thread dimensions:  (%d, %d, %d)\n",thene
+                prop.maxThreadsDim[0], prop.maxThreadsDim[1],
+                prop.maxThreadsDim[2] );
+        printf( "Max grid dimensions:  (%d, %d, %d)\n",
+                prop.maxGridSize[0], prop.maxGridSize[1],
+                prop.maxGridSize[2] );
+        printf( "\n" );
     }
 }
 
